@@ -1,0 +1,40 @@
+Kafka:
+------------------------------------------------------------------------------------------------------
+25/03/2023
+-------------
+confluent cloud
+------------------------------------------------------------------------------------------------------
+01/04/2023
+https://www.confluent.io/confluent-cloud/tryfree/
+create account
+setup cluster
+create key (API Keys) and download it
+create topics (car_topic, partition = 3)
+enable now
+credentials->add key (schema registry key)
+
+set schema (JSON) ->(value-schema_for_registry.txt) (key-"string")
+
+
+
+VS Code
+terminal>pip3 install confluent-kafka
+terminal>pip3 install pandas
+cardekho_dataset.csv
+producer.py
+consumer.py
+
+
+
+a = ['name','designation']
+b = ['shubh','SSE']
+zip(a,b)
+dict(zip(a,b))
+
+
+docs:
+https://docs.confluent.io/platform/current/clients/confluent-kafka-python/html/index.html
+
+
+
+------------------------------------------------------------------------------------------------------
